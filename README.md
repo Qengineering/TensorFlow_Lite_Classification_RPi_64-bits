@@ -39,4 +39,4 @@ The image to be tested is given a line 84, also in TensorFlow_Lite_Class.cpp <br
 Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
 Preferably use our installation here: https://qengineering.eu/install-ubuntu-18.04-on-raspberry-pi-4.html <br/>
 
-![output image]( https://qengineering.eu/images/Schoolbus2.png )
+![output image]( https://qengineering.eu/images/SchoolbusUb.png )
