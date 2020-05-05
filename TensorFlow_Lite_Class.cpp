@@ -97,9 +97,8 @@ int main(int argc,char ** argv)
 
     Tbegin = chrono::steady_clock::now();
 
-for(int ee=0;ee<10;ee++){
     interpreter->Invoke();      // run your model
-}
+
     Tend = chrono::steady_clock::now();
 
     const float threshold = 0.001f;
@@ -133,7 +132,7 @@ for(int ee=0;ee<10;ee++){
     }
     //calculate time
     f = chrono::duration_cast <chrono::milliseconds> (Tend - Tbegin).count();
-    cout << "Process time: " << f/10.0 << " mSec" << endl;
+    cout << "Process time: " << f << " mSec" << endl;
 
     return 0;
 }
