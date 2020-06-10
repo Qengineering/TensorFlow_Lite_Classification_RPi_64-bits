@@ -10,6 +10,7 @@
 #include "tensorflow/lite/examples/label_image/get_top_n.h"
 #include "tensorflow/lite/model.h"
 #include <cmath>
+#include <fstream>
 
 using namespace cv;
 using namespace std;
