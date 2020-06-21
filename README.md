@@ -6,11 +6,11 @@ A fast C++ implementation of TensorFlow Lite classification on a bare Raspberry 
 https://arxiv.org/pdf/1712.05877.pdf <br/>
 Training set: COCO with 1000 objects<br/>
 Size: 224x224 <br/>
-Frame rate Mobile_V1 Lite : 23 FPS (RPi 4 @ 2000 MHz - 64 bits OS) <br/>
-Frame rate Inception_V2 Lite : 10.0 FPS (RPi 4 @ 2000 MHz - 64 bits OS) <br/>
-Frame rate Inception_V4Lite : 2.0 FPS (RPi 4 @ 2000 MHz - 64 bits OS) <br/>
+Frame rate Mobile_V1 Lite : 38.5 FPS (RPi 4 @ 1950 MHz - 64 bits OS) <br/>
+Frame rate Mobile_V2 Lite : 45.5 FPS (RPi 4 @ 1950 MHz - 64 bits OS) <br/>
+Frame rate Inception_V2 Lite : 10.0 FPS (RPi 4 @ 1950 MHz - 64 bits OS) <br/>
+Frame rate Inception_V4Lite : 2.0 FPS (RPi 4 @ 1950 MHz - 64 bits OS) <br/>
 With a regular 32 bits Raspbian OS you get other frame rates see: https://github.com/Qengineering/TensorFlow_Lite_RPi_32-bits <br/>
-Inception was somewhat slower. However, Mobile_V1 was a lot faster (33 FPS). <br/>
 <br/>
 Special made for a bare Raspberry Pi see: https://qengineering.eu/install-ubuntu-18.04-on-raspberry-pi-4.html <br/>
 <br/>
