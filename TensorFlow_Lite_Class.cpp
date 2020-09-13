@@ -115,11 +115,11 @@ int main(int argc,char ** argv)
     switch (interpreter->tensor(output)->type) {
         case kTfLiteFloat32:
             tflite::label_image::get_top_n<float>(interpreter->typed_output_tensor<float>(0), output_size,
-                                                    5, threshold, &top_results, true);
+                                                    5, threshold, &top_results, kTfLiteFloat32);
         break;
         case kTfLiteUInt8:
             tflite::label_image::get_top_n<uint8_t>(interpreter->typed_output_tensor<uint8_t>(0), output_size,
-                                                    5, threshold, &top_results, false);
+                                                    5, threshold, &top_results, kTfLiteUInt8);
         break;
         default:
             cerr << "cannot handle output type " << interpreter->tensor(output)->type << endl;
